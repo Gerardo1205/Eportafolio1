@@ -171,8 +171,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AcercaController.cs" />
+    <Compile Include="Controllers\AcercasController.cs" />
+    <Compile Include="Controllers\CalendarsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProyectoesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -186,6 +190,8 @@
     <Compile Include="Models\Contacto.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactoesController.cs" />
+    <Compile Include="Models\CurriculaController.cs" />
     <Compile Include="Models\Curriculum.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -300,6 +306,36 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Proyectoes\Create.cshtml" />
+    <Content Include="Views\Proyectoes\Delete.cshtml" />
+    <Content Include="Views\Proyectoes\Details.cshtml" />
+    <Content Include="Views\Proyectoes\Edit.cshtml" />
+    <Content Include="Views\Proyectoes\Index.cshtml" />
+    <Content Include="Views\Acerca\Create.cshtml" />
+    <Content Include="Views\Acerca\Delete.cshtml" />
+    <Content Include="Views\Acerca\Details.cshtml" />
+    <Content Include="Views\Acerca\Edit.cshtml" />
+    <Content Include="Views\Acerca\Index.cshtml" />
+    <Content Include="Views\Acercas\Create.cshtml" />
+    <Content Include="Views\Acercas\Delete.cshtml" />
+    <Content Include="Views\Acercas\Details.cshtml" />
+    <Content Include="Views\Acercas\Edit.cshtml" />
+    <Content Include="Views\Acercas\Index.cshtml" />
+    <Content Include="Views\Calendars\Create.cshtml" />
+    <Content Include="Views\Calendars\Delete.cshtml" />
+    <Content Include="Views\Calendars\Details.cshtml" />
+    <Content Include="Views\Calendars\Edit.cshtml" />
+    <Content Include="Views\Calendars\Index.cshtml" />
+    <Content Include="Views\Contactoes\Create.cshtml" />
+    <Content Include="Views\Contactoes\Delete.cshtml" />
+    <Content Include="Views\Contactoes\Details.cshtml" />
+    <Content Include="Views\Contactoes\Edit.cshtml" />
+    <Content Include="Views\Contactoes\Index.cshtml" />
+    <Content Include="Views\Curricula\Create.cshtml" />
+    <Content Include="Views\Curricula\Delete.cshtml" />
+    <Content Include="Views\Curricula\Details.cshtml" />
+    <Content Include="Views\Curricula\Edit.cshtml" />
+    <Content Include="Views\Curricula\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
